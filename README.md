@@ -19,6 +19,8 @@ Chatbot also integrates with news open api and shows latest news for queries lik
 - Latest news on coronavirus
 - Coronavirus news
 
+CHATBOT SUPPORTS MULTIPLE INDIAN LANGUAGES AND VOICE INPUTS
+
 #HOW TO RUN
 
 1. Make a virtual  environment named "rasa-env" and install all packages from requirments.txt, using following command -> pip install -r requirements.txt
