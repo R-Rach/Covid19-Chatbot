@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Covid-19 ChatBot</title>
+
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      <link rel= "stylesheet" type= "text/css" href= "static/css/style.css">
+      
+      <link rel= "stylesheet" type= "text/css" href= "static/css/materialize.min.css">
+
+      <link rel="stylesheet" type="text/css" href="static/css/lightbox.min.css"> 
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <link rel="icon" type="image/png" href="static/img/boticon.png">
+
+      <style type="text/css">
+         body {
+            background-image: url('static/img/white.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;  
+            background-size: 100% 100%;
+            background-position:center;
+         }
+      </style>
+   </head>
+   <body>
+
+
+      <div class="container">
+         <div class="widget">
+            <div class="chat_header">
+               <!--Add the name of the bot here -->
+               <span style="color:white;margin-left: 10px;margin-top: 5px;float:left;font-family:sans-serif;font-size:80%;">Covid-19 Tracker Bot</span>
+               <span style="color:white;margin-right: 5px;float:right;margin-top: 5px;" id="close">
+               <i class="material-icons">close</i>
+               </span>
+            </div>
+            <!--Chatbot contents goes here -->
+            <div class="chats" id="chats">
+               <!-- <img class="botAvatar" src="./static/img/botAvatar.png">
+               <p class="botMsg"> Please select a language 
+                  <br> 
+                  <button class="lang_button" id="en_btn" onclick="enClicked()">English</button> 
+                  <button class="lang_button" id="hi_btn" onclick="hiClicked()">Hindi</button>
+               </p>
+               <div class="clearfix"></div> -->
+            </div>
+            <!--user typing indicator -->
+            <div class="keypad" >
+               <input type="text" id="keypad" class="usrInput browser-default" placeholder="Type a message..." autocomplete="on">
+            </div>
+            <div class="mic_bg" id="mic">
+               <!-- <button type="button" onclick="runSpeechRecognition()"><i class="material-icons">mic</i></button> -->
+               <!-- <button class="mic_button" type="button" onclick="runSpeechRecognition()"><i class="fa fa-microphone" style="font-size:25px"></i></button> -->
+               <a class="mic_button" type="button" onclick="runSpeechRecognition()"><i class="fa fa-microphone" style="font-size:25px"></i></a>
+            </div>
+         </div>
+         <!--bot widget -->
+         <div class="profile_div" id="profile_div">
+            <img class="imgProfile" src="static/img/chatbox.png"/>
+         </div>
+
+      </div>
+
+
+      <div class="gallery">
+        <p class="heading"> Spmptoms </p><br><br><br>
+        <a href= "static/img/who/symptoms/1.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/symptoms/1.png"> 
+        </a> 
+        
+
+        <br><p class="heading"> Protect yourself and others from getting sick </p><br><br><br>
+        <a href= "static/img/who/protect_yourself/1.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/protect_yourself/1.png"> 
+        </a>
+        <a href= "static/img/who/protect_yourself/2.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/protect_yourself/2.png"> 
+        </a><br>
+        <a href= "static/img/who/protect_yourself/3.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/protect_yourself/3.png"> 
+        </a>
+        <a href= "static/img/who/protect_yourself/4.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/protect_yourself/4.png"> 
+        </a>
+
+
+        <br><p class="heading"> FAQ </p><br><br><br>
+        <a href= "static/img/who/faq/1.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/faq/1.png"> 
+        </a>
+        <a href= "static/img/who/faq/2.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/faq/2.png"> 
+        </a><br>
+        <a href= "static/img/who/faq/3.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/faq/3.png"> 
+        </a>
+        <a href= "static/img/who/faq/4.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/faq/4.png"> 
+        </a><br>
+        <a href= "static/img/who/faq/5.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/faq/5.png"> 
+        </a>
+        <a href= "static/img/who/faq/6.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/faq/6.png"> 
+        </a><br>
+        <a href= "static/img/who/faq/7.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/faq/7.png"> 
+        </a>
+
+
+        <br><p class="heading"> Home Care </p><br><br><br>
+        <a href= "static/img/who/homecare/1.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/homecare/1.png"> 
+        </a>
+        <a href= "static/img/who/homecare/2.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/homecare/2.png"> 
+        </a><br>
+        <a href= "static/img/who/homecare/3.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/homecare/3.png"> 
+        </a>
+        <a href= "static/img/who/homecare/4.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/homecare/4.png"> 
+        </a><br>
+        <a href= "static/img/who/homecare/5.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/homecare/5.png"> 
+        </a>
+        <a href= "static/img/who/homecare/6.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/homecare/6.png"> 
+        </a>
+
+        <br><p class="heading"> Be Ready </p><br><br><br>
+        <a href= "static/img/who/be_ready/1.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/be_ready/1.png"> 
+        </a>
+        <a href= "static/img/who/be_ready/2.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/be_ready/2.png"> 
+        </a><br>
+        <a href= "static/img/who/be_ready/3.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/be_ready/3.png"> 
+        </a>
+        <a href= "static/img/who/be_ready/4.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/be_ready/4.png"> 
+        </a><br>
+        <a href= "static/img/who/be_ready/5.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/be_ready/5.png"> 
+        </a>
+        <a href= "static/img/who/be_ready/6.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/be_ready/6.png"> 
+        </a><br>
+        <a href= "static/img/who/be_ready/7.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/be_ready/7.png"> 
+        </a>
+        <a href= "static/img/who/be_ready/8.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/be_ready/8.png"> 
+        </a><br>
+        <a href= "static/img/who/be_ready/9.png" data-lightbox="mygallery"> 
+            <img src= "static/img/who/be_ready/9.png"> 
+        </a>
+
+      </div>
+
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script type="text/javascript" src="static/js/materialize.min.js"></script>
+      <!--Main Script -->
+      <script type="text/javascript" src="static/js/script.js"></script>
+      <script src= "static/js/lightbox-plus-jquery.min.js"></script>
+   </body>
+</html>

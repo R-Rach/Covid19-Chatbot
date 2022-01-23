@@ -1,0 +1,379 @@
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+
+## intent:affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+
+## intent:deny
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+
+## intent:mood_great
+- perfect
+- very good
+- great
+- amazing
+- wonderful
+- I am feeling very good
+- I am great
+- I'm good
+
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremely sad
+- so sad
+
+## intent:bot_challenge
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?
+
+## intent:about_covid
+- Tell me about covid 19
+- what is covid 19
+- what is coronavirus
+- tell me about coronavirus
+
+## intent:covid_spread
+- how is covid 19 spreaded?
+- how is coronavirus spreaded?
+- how covid spreads?
+- how coronavirus spreads?
+
+## intent:covid_protect
+- how to protect from coronavirus
+- how to protect from covid
+- protect oneself from coronavirus
+- how to prevent coronavirus
+- prevention of coronavirus
+- coronavirus prevention
+- covid prevention
+
+## intent:covid_symptoms
+- what are the symptoms of covid 19
+- what are the symptoms of coronavirus
+- tell me about the symptoms of coronavirus
+
+## intent: corona_statewise_total
+ - Current status of [india](state)
+ - Current status of [corona](state)
+ - Current status of [maharashtra](state) state
+ - Current status of [karnataka](state) state
+ - Current status of [andhra aradesh](state) state
+ - Current status of [tamil nadu](state) state
+ - Current status of [uttar pradesh](state) state
+ - Current status of [kerala](state) state
+ - Current status of [delhi](state) state
+ - Current status of [west bengal](state) state
+ - Current status of [odisha](state) state
+ - Current status of [telangana](state) state
+ - Current status of [bihar](state) state
+ - Current status of [rajasthan](state) state
+ - Current status of [assam](state) state
+ - Current status of [chhattisgarh](state) state
+ - Current status of [haryana](state) state
+ - Current status of [gujarat](state) state
+ - Current status of [madhya pradesh](state) state
+ - Current status of [punjab](state) state
+ - Current status of [jharkhand](state) state
+ - Current status of [jammu and kashmir](state) state
+ - Current status of [uttarakhand](state) state
+ - Current status of [goa](state) state
+ - Current status of [puducherry](state) state
+ - Current status of [tripura](state) state
+ - Current status of [himachal pradesh](state) state
+ - Current status of [manipur](state) state
+ - Current status of [arunachal pradesh](state) state
+ - Current status of [chandigarh](state) state
+ - Current status of [meghalaya](state) state
+ - Current status of [nagaland](state) state
+ - Current status of [ladakh](state) state
+ - Current status of [andaman and nicobar islands](state) state
+ - Current status of [sikkim](state) state
+ - Current status of [dadra and nagar haveli and daman and diu](state) state
+ - Current status of [mizoram](state) state
+ - Current status of [lakshadweep](state) state
+ - number of cases in [india](state)
+ - number of cases in [corona](state)
+ - number of cases in [maharashtra](state) state
+ - number of cases in [karnataka](state) state
+ - number of cases in [andhra pradesh](state) state
+ - number of cases in [tamil nadu](state) state
+ - number of cases in [uttar pradesh](state) state
+ - number of cases in [kerala](state) state
+ - number of cases in [delhi](state) state
+ - number of cases in [west bengal](state) state
+ - number of cases in [odisha](state) state
+ - number of cases in [telangana](state) state
+ - number of cases in [bihar](state) state
+ - number of cases in [rajasthan](state) state
+ - number of cases in [assam](state) state
+ - number of cases in [chhattisgarh](state) state
+ - number of cases in [haryana](state) state
+ - number of cases in [gujarat](state) state
+ - number of cases in [madhya pradesh](state) state
+ - number of cases in [punjab](state) state
+ - number of cases in [jharkhand](state) state
+ - number of cases in [jammu and kashmir](state) state
+ - number of cases in [uttarakhand](state) state
+ - number of cases in [goa](state) state
+ - number of cases in [puducherry](state) state
+ - number of cases in [tripura](state) state
+ - number of cases in [himachal pradesh](state) state
+ - number of cases in [manipur](state) state
+ - number of cases in [arunachal pradesh](state) state
+ - number of cases in [chandigarh](state) state
+ - number of cases in [meghalaya](state) state
+ - number of cases in [nagaland](state) state
+ - number of cases in [ladakh](state) state
+ - number of cases in [andaman and nicobar islands](state) state
+ - number of cases in [sikkim](state) state
+ - number of cases in [dadra and nagar haveli and daman and diu](state) state
+ - number of cases in [mizoram](state) state
+ - number of cases in [lakshadweep](state) state
+ - Total number of cases in [india](state)
+ - Total number of cases in [corona](state)
+ - Total number of cases in [maharashtra](state) state
+ - Total number of cases in [karnataka](state) state
+ - Total number of cases in [andhra pradesh](state) state
+ - Total number of cases in [tamil nadu](state) state
+ - Total number of cases in [uttar pradesh](state) state
+ - Total number of cases in [kerala](state) state
+ - Total number of cases in [delhi](state) state
+ - Total number of cases in [west bengal](state) state
+ - Total number of cases in [odisha](state) state
+ - Total number of cases in [telangana](state) state
+ - Total number of cases in [bihar](state) state
+ - Total number of cases in [rajasthan](state) state
+ - Total number of cases in [assam](state) state
+ - Total number of cases in [chhattisgarh](state) state
+ - Total number of cases in [haryana](state) state
+ - Total number of cases in [gujarat](state) state
+ - Total number of cases in [madhya pradesh](state) state
+ - Total number of cases in [punjab](state) state
+ - Total number of cases in [jharkhand](state) state
+ - Total number of cases in [jammu and kashmir](state) state
+ - Total number of cases in [uttarakhand](state) state
+ - Total number of cases in [goa](state) state
+ - Total number of cases in [puducherry](state) state
+ - Total number of cases in [tripura](state) state
+ - Total number of cases in [himachal pradesh](state) state
+ - Total number of cases in [manipur](state) state
+ - Total number of cases in [arunachal pradesh](state) state
+ - Total number of cases in [chandigarh](state) state
+ - Total number of cases in [meghalaya](state) state
+ - Total number of cases in [nagaland](state) state
+ - Total number of cases in [ladakh](state) state
+ - Total number of cases in [andaman and nicobar islands](state) state
+ - Total number of cases in [sikkim](state) state
+ - Total number of cases in [dadra and nagar haveli and daman and diu](state) state
+ - Total number of cases in [mizoram](state) state
+ - Total number of cases in [lakshadweep](state) state
+ - How many cases of coronavirus in [india](state)
+ - How many cases of coronavirus in [corona](state)
+ - How many cases of coronavirus in [maharashtra](state) state
+ - How many cases of coronavirus in [karnataka](state) state
+ - How many cases of coronavirus in [andhra pradesh](state) state
+ - How many cases of coronavirus in [tamil nadu](state) state
+ - How many cases of coronavirus in [uttar pradesh](state) state
+ - How many cases of coronavirus in [kerala](state) state
+ - How many cases of coronavirus in [delhi](state) state
+ - How many cases of coronavirus in [west bengal](state) state
+ - How many cases of coronavirus in [odisha](state) state
+ - How many cases of coronavirus in [telangana](state) state
+ - How many cases of coronavirus in [bihar](state) state
+ - How many cases of coronavirus in [rajasthan](state) state
+ - How many cases of coronavirus in [assam](state) state
+ - How many cases of coronavirus in [chhattisgarh](state) state
+ - How many cases of coronavirus in [haryana](state) state
+ - How many cases of coronavirus in [gujarat](state) state
+ - How many cases of coronavirus in [madhya pradesh](state) state
+ - How many cases of coronavirus in [punjab](state) state
+ - How many cases of coronavirus in [jharkhand](state) state
+ - How many cases of coronavirus in [jammu and kashmir](state) state
+ - How many cases of coronavirus in [uttarakhand](state) state
+ - How many cases of coronavirus in [goa](state) state
+ - How many cases of coronavirus in [puducherry](state) state
+ - How many cases of coronavirus in [tripura](state) state
+ - How many cases of coronavirus in [himachal pradesh](state) state
+ - How many cases of coronavirus in [manipur](state) state
+ - How many cases of coronavirus in [arunachal pradesh](state) state
+ - How many cases of coronavirus in [chandigarh](state) state
+ - How many cases of coronavirus in [meghalaya](state) state
+ - How many cases of coronavirus in [nagaland](state) state
+ - How many cases of coronavirus in [ladakh](state) state
+ - How many cases of coronavirus in [andaman and nicobar islands](state) state
+ - How many cases of coronavirus in [sikkim](state) state
+ - How many cases of coronavirus in [dadra and nagar haveli and daman and diu](state) state
+ - How many cases of coronavirus in [mizoram](state) state
+ - How many cases of coronavirus in [lakshadweep](state) state
+
+## intent: corona_statewise_single
+ - Total [recovered](status) cases in [india](state)
+ - Total [dead](status) cases in [india](state)
+ - Total [deaths](status) in [india](state)
+ - Total [confirmed](status) cases in [india](state)
+ - Total [active](status) cases in [india](state)
+ - Total [recovered](status) cases in [maharashtra](state)
+ - Total [dead](status) cases in [maharashtra](state)
+ - Total [deaths](status) in [maharashtra](state)
+ - Total [confirmed](status) cases in [maharashtra](state)
+ - Total [active](status) cases in [maharashtra](state)
+ - Total [recovered](status) cases in [karnataka](state)
+ - Total [dead](status) cases in [karnataka](state)
+ - Total [deaths](status) in [karnataka](state)
+ - Total [confirmed](status) cases in [karnataka](state)
+ - Total [active](status) cases in [karnataka](state)
+ - Total [recovered](status) cases in [andhra pradesh](state)
+ - Total [dead](status) cases in [andhra pradesh](state)
+ - Total [deaths](status) in [andhra pradesh](state)
+ - Total [confirmed](status) cases in [andhra pradesh](state)
+ - Total [active](status) cases in [andhra pradesh](state)
+ - Total [recovered](status) cases in [tamil nadu](state)
+ - Total [dead](status) cases in [tamil nadu](state)
+ - Total [deaths](status) in [tamil nadu](state)
+ - Total [confirmed](status) cases in [tamil nadu](state)
+ - Total [active](status) cases in [tamil nadu](state)
+ - Total [recovered](status) cases in [uttar pradesh](state)
+ - Total [dead](status) cases in [uttar pradesh](state)
+ - Total [deaths](status) in [uttar pradesh](state)
+ - Total [confirmed](status) cases in [uttar pradesh](state)
+ - Total [active](status) cases in [uttar pradesh](state)
+ - Total [recovered](status) cases in [kerala](state)
+ - Total [dead](status) cases in [kerala](state)
+ - Total [deaths](status) in [kerala](state)
+ - Total [confirmed](status) cases in [kerala](state)
+ - Total [active](status) cases in [kerala](state)
+ - Total [recovered](status) cases in [delhi](state)
+ - Total [dead](status) cases in [delhi](state)
+ - Total [deaths](status) in [delhi](state)
+ - Total [confirmed](status) cases in [delhi](state)
+ - Total [active](status) cases in [delhi](state)
+ - Total [recovered](status) cases in [west bengal](state)
+ - Total [dead](status) cases in [west bengal](state)
+ - Total [deaths](status) in [west bengal](state)
+ - Total [confirmed](status) cases in [west bengal](state)
+ - Total [active](status) cases in [west bengal](state)
+ - Total [recovered](status) cases in [odisha](state)
+ - Total [dead](status) cases in [odisha](state)
+ - Total [deaths](status) in [odisha](state)
+ - Total [confirmed](status) cases in [odisha](state)
+ - Total [active](status) cases in [odisha](state)
+ - Total [recovered](status) cases in [telangana](state)
+ - Total [dead](status) cases in [telangana](state)
+ - Total [deaths](status) in [telangana](state)
+ - Total [confirmed](status) cases in [telangana](state)
+ - Total [active](status) cases in [telangana](state)
+ - Total [recovered](status) cases in [bihar](state)
+ - Total [dead](status) cases in [bihar](state)
+ - Total [deaths](status) in [bihar](state)
+ - Total [confirmed](status) cases in [bihar](state)
+ - Total [active](status) cases in [bihar](state)
+ - Total [recovered](status) cases in [rajasthan](state)
+ - Total [dead](status) cases in [rajasthan](state)
+ - Total [deaths](status) in [rajasthan](state)
+ - Total [confirmed](status) cases in [rajasthan](state)
+ - Total [active](status) cases in [rajasthan](state)
+ - Total number of [recovered](status) cases in [india](state)
+ - Total number of [dead](status) cases in [india](state)
+ - Total number of [deaths](status) in [india](state)
+ - Total number of [confirmed](status) cases in [india](state)
+ - Total number of [active](status) cases in [india](state)
+ - Total number of [recovered](status) cases in [maharashtra](state)
+ - Total number of [dead](status) cases in [maharashtra](state)
+ - Total number of [deaths](status) in [maharashtra](state)
+ - Total number of [confirmed](status) cases in [maharashtra](state)
+ - Total number of [active](status) cases in [maharashtra](state)
+ - Total number of [recovered](status) cases in [karnataka](state)
+ - Total number of [dead](status) cases in [karnataka](state)
+ - Total number of [deaths](status) in [karnataka](state)
+ - Total number of [confirmed](status) cases in [karnataka](state)
+ - Total number of [active](status) cases in [karnataka](state)
+ - Total number of [recovered](status) cases in [andhra pradesh](state)
+ - Total number of [dead](status) cases in [andhra pradesh](state)
+ - Total number of [deaths](status) in [andhra pradesh](state)
+ - Total number of [confirmed](status) cases in [andhra pradesh](state)
+ - Total number of [active](status) cases in [andhra pradesh](state)
+ - Total number of [recovered](status) cases in [tamil nadu](state)
+ - Total number of [dead](status) cases in [tamil nadu](state)
+ - Total number of [deaths](status) in [tamil nadu](state)
+ - Total number of [confirmed](status) cases in [tamil nadu](state)
+ - Total number of [active](status) cases in [tamil nadu](state)
+ - Total number of [recovered](status) cases in [uttar pradesh](state)
+ - Total number of [dead](status) cases in [uttar pradesh](state)
+ - Total number of [deaths](status) in [uttar pradesh](state)
+ - Total number of [confirmed](status) cases in [uttar pradesh](state)
+ - Total number of [active](status) cases in [uttar pradesh](state)
+ - Total number of [recovered](status) cases in [kerala](state)
+ - Total number of [dead](status) cases in [kerala](state)
+ - Total number of [deaths](status) in [kerala](state)
+ - Total number of [confirmed](status) cases in [kerala](state)
+ - Total number of [active](status) cases in [kerala](state)
+ - Total number of [recovered](status) cases in [delhi](state)
+ - Total number of [dead](status) cases in [delhi](state)
+ - Total number of [deaths](status) in [delhi](state)
+ - Total number of [confirmed](status) cases in [delhi](state)
+ - Total number of [active](status) cases in [delhi](state)
+ - Total number of [recovered](status) cases in [west bengal](state)
+ - Total number of [dead](status) cases in [west bengal](state)
+ - Total number of [deaths](status) in [west bengal](state)
+ - Total number of [confirmed](status) cases in [west bengal](state)
+ - Total number of [active](status) cases in [west bengal](state)
+ - Total number of [recovered](status) cases in [odisha](state)
+ - Total number of [dead](status) cases in [odisha](state)
+ - Total number of [deaths](status) in [odisha](state)
+ - Total number of [confirmed](status) cases in [odisha](state)
+ - Total number of [active](status) cases in [odisha](state)
+ - Total number of [recovered](status) cases in [telangana](state)
+ - Total number of [dead](status) cases in [telangana](state)
+ - Total number of [deaths](status) in [telangana](state)
+ - Total number of [confirmed](status) cases in [telangana](state)
+ - Total number of [active](status) cases in [telangana](state)
+ - Total number of [recovered](status) cases in [bihar](state)
+ - Total number of [dead](status) cases in [bihar](state)
+ - Total number of [deaths](status) in [bihar](state)
+ - Total number of [confirmed](status) cases in [bihar](state)
+ - Total number of [active](status) cases in [bihar](state)
+ - Total number of [recovered](status) cases in [rajasthan](state)
+ - Total number of [dead](status) cases in [rajasthan](state)
+ - Total number of [deaths](status) in [rajasthan](state)
+ - Total number of [confirmed](status) cases in [rajasthan](state)
+ - Total number of [active](status) cases in [rajasthan](state)
+
+## intent:covid_news
+- Show me the latest news
+- latest news on coronavirus
+- coronavirus news
+- latest news
+- covid19 news
+- latest covid19 news
+- latest news on covid19
+
+

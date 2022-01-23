@@ -1,0 +1,61 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - corona_statewise_total
+  - corona_statewise_single
+  - about_covid
+  - covid_spread
+  - covid_protect
+  - covid_symptoms
+  - covid_news
+
+actions:
+  - action_hello_world
+  - action_corona_tracker_statewise_total
+  - action_corona_tracker_statewise_single
+  - action_covid_news
+
+entities:
+ - state
+ - status
+
+responses:
+  utter_greet:
+  - text: "Hey, How are you? I am a Corona Tracker Bot. How can I help?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "GoodBye :) For more info please visit [Covid19 India](https://www.covid19india.org/)."
+
+  utter_iamabot:
+  - text: "I am a Corona Tracker Bot."
+
+  utter_about_covid:
+  - text: "Coronavirus disease 2019 (COVID-19) is defined as illness caused by a novel coronavirus now called severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2; formerly called 2019-nCoV), which was first identified amid an outbreak of respiratory illness cases in Wuhan City, Hubei Province, China. It was initially reported to the WHO on December 31, 2019. On January 30, 2020, the WHO declared the COVID-19 outbreak a global health emergency. On March 11, 2020, the WHO declared COVID-19 a global pandemic, its first such designation since declaring H1N1 influenza a pandemic in 2009."
+
+  utter_covid_spread:
+  - text: "The virus that causes COVID-19 is mainly transmitted through droplets generated when an infected person coughs, sneezes, or exhales. These droplets are too heavy to hang in the air, and quickly fall on floors or surfaces. <br>You can be infected by breathing in the virus if you are within close proximity of someone who has COVID-19, or by touching a contaminated surface and then your eyes, nose or mouth."
+
+  utter_covid_protect:
+  - text: "To prevent the spread of COVID-19: <br>  - Clean your hands often. Use soap and water, or an alcohol-based hand rub. <br>  - Maintain a safe distance from anyone who is coughing or sneezing. <br>  - Wear a mask when physical distancing is not possible. <br>  - Don’t touch your eyes, nose or mouth. <br>  - Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze. <br>  - Stay home if you feel unwell. <br>  - If you have a fever, cough and difficulty breathing, seek medical attention."
+
+  utter_covid_symptoms:
+  - text: "COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover without hospitalization. <br>Most common symptoms: <br>  - fever. <br>  - dry cough. <br>  - tiredness. <br>Less common symptoms: <br>  - aches and pains. <br>  - sore throat. <br>  - diarrhoea. <br>  - conjunctivitis. <br>  - headache. <br>  - loss of taste or smell. <br>  - a rash on skin, or discolouration of fingers or toes. <br>Serious symptoms: <br>  - difficulty breathing or shortness of breath. <br>  - chest pain or pressure. <br>  - loss of speech or movement. <br>Seek immediate medical attention if you have serious symptoms.  Always call before visiting your doctor or health facility. <br>People with mild symptoms who are otherwise healthy should manage their symptoms at home. <br>On average it takes 5–6 days from when someone is infected with the virus for symptoms to show, however it can take up to 14 days."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
